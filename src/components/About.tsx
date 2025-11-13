@@ -15,7 +15,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           <div className="space-y-4">
             <p className="text-lg leading-relaxed">
-              I'm a versatile creative professional passionate about Content Writing, Content Management, Copywriting, Graphic Design, Digital Marketing, and Web Development.
+              I'm Samarth Jadhav, a versatile creative professional passionate about Content Writing, Content Management, Copywriting, Graphic Design, Digital Marketing, and Web Development.
             </p>
             <p className="text-lg leading-relaxed">
               I specialize in creating engaging content that resonates with audiences, managing comprehensive digital strategies, writing persuasive copy that converts, and designing creative visuals that captivate.

@@ -13,7 +13,7 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center px-6 pt-20">
       <div className="text-center max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Hi, I'm <span className="text-accent">Your Name</span>
+          Hi, I'm <span className="text-accent">Samarth</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-4">
@@ -27,7 +27,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <Button 
             size="lg"
-            onClick={() => scrollToSection("contact")}
+            onClick={() => window.location.href = "mailto:gurupuhpagraphics@gmail.com,teamarsenicstudios@gmail.com,samarthjadhavpatil46@gmail.com?subject=Project Inquiry&body=Hi Samarth, I'd like to discuss a project with you."}
             className="bg-primary text-primary-foreground hover:bg-primary/90"
           >
             Get Started

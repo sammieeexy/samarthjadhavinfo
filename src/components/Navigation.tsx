@@ -47,7 +47,7 @@ const Navigation = () => {
             Contact
           </button>
           <Button 
-            onClick={() => scrollToSection("contact")}
+            onClick={() => window.location.href = "mailto:gurupuhpagraphics@gmail.com,teamarsenicstudios@gmail.com,samarthjadhavpatil46@gmail.com?subject=Project Inquiry&body=Hi Samarth, I'd like to discuss a project with you."}
             className="bg-primary text-primary-foreground hover:bg-primary/90"
           >
             Get in Touch

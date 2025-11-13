@@ -1,22 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Mail, Linkedin, Twitter } from "lucide-react";
-import { useState } from "react";
-import { toast } from "sonner";
+import { Mail, Phone, Linkedin } from "lucide-react";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: ""
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast.success("Message sent! I'll get back to you soon.");
-    setFormData({ name: "", email: "", message: "" });
+  const handleEmailClick = () => {
+    window.location.href = "mailto:jadhavsamarth78@gmail.com?subject=Project Inquiry&body=Hi Samarth, I'd like to discuss a project with you.";
   };
 
   return (
@@ -29,81 +17,69 @@ const Contact = () => {
           Have a project in mind? Let's work together to bring your ideas to life
         </p>
         
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="max-w-2xl mx-auto space-y-6">
           <Card className="p-8">
-            <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-            <form onSubmit={handleSubmit} className="space-y-4">
-              <div>
-                <Input
-                  placeholder="Your Name"
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  required
-                />
-              </div>
-              <div>
-                <Input
-                  type="email"
-                  placeholder="Your Email"
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  required
-                />
-              </div>
-              <div>
-                <Textarea
-                  placeholder="Your Message"
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  rows={5}
-                  required
-                />
-              </div>
-              <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-                Send Message
-              </Button>
-            </form>
-          </Card>
-          
-          <div className="space-y-6">
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
-              <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <Mail className="w-5 h-5 text-accent" />
-                  <span>your.email@example.com</span>
+            <h3 className="text-2xl font-semibold mb-6 text-center">Contact Information</h3>
+            <div className="space-y-6">
+              <div className="flex items-center gap-4 p-4 bg-secondary/50 rounded-lg">
+                <Mail className="w-6 h-6 text-accent flex-shrink-0" />
+                <div>
+                  <p className="font-semibold mb-1">Email</p>
+                  <a 
+                    href="mailto:jadhavsamarth78@gmail.com" 
+                    className="text-muted-foreground hover:text-accent transition-colors break-all"
+                  >
+                    jadhavsamarth78@gmail.com
+                  </a>
                 </div>
               </div>
-            </Card>
-            
-            <Card className="p-6">
-              <h3 className="text-xl font-semibold mb-4">Connect with Me</h3>
-              <div className="flex gap-4">
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-secondary rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors"
-                >
-                  <Linkedin className="w-5 h-5" />
-                </a>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 bg-secondary rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors"
-                >
-                  <Twitter className="w-5 h-5" />
-                </a>
-                <a
-                  href="mailto:your.email@example.com"
-                  className="p-3 bg-secondary rounded-lg hover:bg-accent hover:text-accent-foreground transition-colors"
-                >
-                  <Mail className="w-5 h-5" />
-                </a>
+              
+              <div className="flex items-center gap-4 p-4 bg-secondary/50 rounded-lg">
+                <Phone className="w-6 h-6 text-accent flex-shrink-0" />
+                <div>
+                  <p className="font-semibold mb-1">Phone</p>
+                  <a 
+                    href="tel:+919049391868" 
+                    className="text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    +91 9049391868
+                  </a>
+                </div>
               </div>
-            </Card>
-          </div>
+              
+              <div className="flex items-center gap-4 p-4 bg-secondary/50 rounded-lg">
+                <Linkedin className="w-6 h-6 text-accent flex-shrink-0" />
+                <div>
+                  <p className="font-semibold mb-1">LinkedIn</p>
+                  <a 
+                    href="https://linkedin.com/in/samarth-jadhav-b9143736a" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-accent transition-colors break-all"
+                  >
+                    linkedin.com/in/samarth-jadhav-b9143736a
+                  </a>
+                </div>
+              </div>
+            </div>
+            
+            <div className="mt-8">
+              <Button 
+                onClick={handleEmailClick}
+                className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
+                size="lg"
+              >
+                <Mail className="w-5 h-5 mr-2" />
+                Email Me
+              </Button>
+            </div>
+          </Card>
+          
+          <Card className="p-6 bg-accent/10 border-accent/20">
+            <p className="text-center text-sm text-muted-foreground italic">
+              <strong>Note:</strong> Client testimonials coming soon as I complete my first projects!
+            </p>
+          </Card>
         </div>
       </div>
     </section>

@@ -5,18 +5,18 @@ const Services = () => {
   const services = [
     {
       icon: FileText,
-      title: "Content Writing",
-      description: "Engaging blog posts, articles, and website content that captivates your audience and boosts your online presence."
+      title: "Content Creation",
+      description: "High-quality articles, blogs, and social media content that engages your audience and tells your brand story effectively."
     },
     {
       icon: PenTool,
-      title: "Copywriting",
-      description: "Persuasive marketing copy, ad campaigns, and sales materials designed to convert prospects into customers."
+      title: "Copywriting & Content Strategy",
+      description: "Persuasive ads, marketing campaigns, email copy, and comprehensive content management strategies that drive results."
     },
     {
       icon: BarChart,
-      title: "Digital Marketing",
-      description: "Comprehensive digital strategies including SEO, SEM, social media management, and analytics-driven campaigns."
+      title: "Design & Marketing",
+      description: "Graphic design, branding, UI/UX basics, social media management, and digital marketing to elevate your brand presence."
     }
   ];
 
