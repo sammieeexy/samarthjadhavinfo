@@ -74,12 +74,6 @@ const Contact = () => {
               </Button>
             </div>
           </Card>
-          
-          <Card className="p-6 bg-accent/10 border-accent/20">
-            <p className="text-center text-sm text-muted-foreground italic">
-              <strong>Note:</strong> Client testimonials coming soon as I complete my first projects!
-            </p>
-          </Card>
         </div>
       </div>
     </section>
