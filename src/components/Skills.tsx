@@ -1,17 +1,17 @@
 import { Card } from "@/components/ui/card";
-import { Pen, Megaphone, FolderKanban, Palette, Code, TrendingUp, Share2, LineChart } from "lucide-react";
+import { Pen, Megaphone, FolderKanban, Palette, Code, TrendingUp, Share2 } from "lucide-react";
 
 const Skills = () => {
   const skills = [
     {
       icon: Pen,
       title: "Content Writing",
-      description: "Compelling articles, blogs, and web content"
+      description: "Creating engaging and impactful content"
     },
     {
       icon: Megaphone,
       title: "Copywriting",
-      description: "Persuasive marketing and ad copy"
+      description: "Persuasive and compelling copy"
     },
     {
       icon: FolderKanban,
@@ -31,17 +31,22 @@ const Skills = () => {
     {
       icon: TrendingUp,
       title: "Digital Marketing",
-      description: "SEO, SEM, and campaign strategies"
+      description: "SEO, SEM, and online campaigns"
     },
     {
       icon: Share2,
-      title: "Social Media",
-      description: "Content strategy and community management"
+      title: "Social Media Management",
+      description: "Platform management and engagement"
     },
     {
-      icon: LineChart,
-      title: "Analytics",
-      description: "Data-driven insights and optimization"
+      icon: Palette,
+      title: "Branding & UI/UX",
+      description: "Brand identity and user experience basics"
+    },
+    {
+      icon: Pen,
+      title: "Communication & Editing",
+      description: "Clear communication and content editing"
     }
   ];
 

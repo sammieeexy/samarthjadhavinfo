@@ -4,40 +4,40 @@ import { Badge } from "@/components/ui/badge";
 const Portfolio = () => {
   const projects = [
     {
-      title: "Brand Content Strategy",
+      title: "Content Projects Coming Soon",
       category: "Content Writing",
-      description: "Developed comprehensive content strategy for a tech startup, increasing organic traffic by 150%.",
-      tags: ["SEO", "Blog", "Strategy"]
+      description: "I'm building my first projects in content creation, blog writing, and strategic content development. Stay tuned for exciting updates!",
+      tags: ["Coming Soon"]
     },
     {
-      title: "E-commerce Campaign",
+      title: "Copywriting Portfolio",
       category: "Copywriting",
-      description: "Created persuasive ad copy for seasonal campaign, resulting in 40% increase in conversions.",
-      tags: ["Ads", "Email", "Landing Pages"]
+      description: "Working on compelling ad copy, email campaigns, and persuasive marketing materials. Projects will be showcased here soon!",
+      tags: ["In Progress"]
     },
     {
-      title: "Social Media Rebrand",
-      category: "Digital Marketing",
-      description: "Managed complete social media rebrand with content calendar and engagement strategy.",
-      tags: ["Social", "Design", "Analytics"]
-    },
-    {
-      title: "Website Redesign",
-      category: "Web Development",
-      description: "Built responsive website with modern design and optimized user experience.",
-      tags: ["React", "UI/UX", "Responsive"]
-    },
-    {
-      title: "Visual Identity Package",
+      title: "Design Work",
       category: "Graphic Design",
-      description: "Designed complete brand identity including logo, color palette, and marketing materials.",
-      tags: ["Branding", "Logo", "Print"]
+      description: "Creating brand identities, visual designs, and creative graphics. My design portfolio is currently under development.",
+      tags: ["Coming Soon"]
     },
     {
-      title: "Content Marketing Guide",
+      title: "Web Development",
+      category: "Web Development",
+      description: "Building responsive websites and web applications with modern technologies. Projects launching soon!",
+      tags: ["In Progress"]
+    },
+    {
+      title: "Digital Marketing Campaigns",
+      category: "Digital Marketing",
+      description: "Developing social media strategies, SEO campaigns, and digital marketing initiatives. Watch this space!",
+      tags: ["Coming Soon"]
+    },
+    {
+      title: "Brand Strategy",
       category: "Content Management",
-      description: "Created comprehensive guide and framework for content marketing best practices.",
-      tags: ["Strategy", "Documentation", "Training"]
+      description: "Crafting comprehensive content strategies and brand management frameworks. Portfolio pieces coming soon!",
+      tags: ["In Progress"]
     }
   ];
 
