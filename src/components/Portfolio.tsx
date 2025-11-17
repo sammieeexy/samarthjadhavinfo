@@ -4,39 +4,33 @@ import { Badge } from "@/components/ui/badge";
 const Portfolio = () => {
   const projects = [
     {
-      title: "Content Projects",
+      title: "Content Writing",
       category: "Content Writing",
-      description: "Building engaging content creation projects, blog writing, and strategic content development initiatives.",
+      description: "Crafting engaging articles, blogs, website content, and SEO-optimized writing that connects with audiences and drives results.",
       tags: []
     },
     {
-      title: "Copywriting Portfolio",
-      category: "Copywriting",
-      description: "Working on compelling ad copy, email campaigns, and persuasive marketing materials for various brands.",
-      tags: []
-    },
-    {
-      title: "Design Work",
-      category: "Graphic Design",
-      description: "Creating brand identities, visual designs, and creative graphics for diverse clientele.",
-      tags: []
-    },
-    {
-      title: "Web Development",
-      category: "Web Development",
-      description: "Building responsive websites and web applications with modern technologies and frameworks.",
-      tags: []
-    },
-    {
-      title: "Digital Marketing Campaigns",
-      category: "Digital Marketing",
-      description: "Developing social media strategies, SEO campaigns, and comprehensive digital marketing initiatives.",
-      tags: []
-    },
-    {
-      title: "Brand Strategy",
+      title: "Content Management",
       category: "Content Management",
-      description: "Crafting comprehensive content strategies and brand management frameworks for growing businesses.",
+      description: "Developing strategic content plans, managing editorial calendars, and organizing digital content workflows for maximum impact.",
+      tags: []
+    },
+    {
+      title: "Graphic Design",
+      category: "Graphic Design",
+      description: "Creating stunning visual designs, brand identities, logos, and creative graphics using Adobe Photoshop, Illustrator, and Canva.",
+      tags: []
+    },
+    {
+      title: "Video Editing",
+      category: "Video Editing",
+      description: "Producing professional video content with seamless editing, transitions, effects, and post-production for various platforms.",
+      tags: []
+    },
+    {
+      title: "Frontend Development",
+      category: "Frontend Development",
+      description: "Building responsive, modern websites and web applications using HTML, CSS, JavaScript, and React frameworks.",
       tags: []
     }
   ];
