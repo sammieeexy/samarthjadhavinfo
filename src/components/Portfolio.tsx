@@ -32,6 +32,12 @@ const Portfolio = () => {
       category: "Frontend Development",
       description: "Building responsive, modern websites and web applications using HTML, CSS, JavaScript, and React frameworks.",
       tags: []
+    },
+    {
+      title: "Presentations & Documentation",
+      category: "Academic & Professional",
+      description: "Creating professional PowerPoint presentations, project reports, thesis papers, research documents, and comprehensive academic materials.",
+      tags: []
     }
   ];
 
